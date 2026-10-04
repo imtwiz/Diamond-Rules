@@ -2,19 +2,29 @@ import SwiftUI
 struct RootView:View {
  @EnvironmentObject var store:RuleStore
  var body:some View { TabView {
-  NavigationStack { AskView() }.tabItem{Label("Ask AI",systemImage:"sparkles")}
-  NavigationStack { RuleSearchView() }.tabItem{Label("Rules",systemImage:"book")}
+  NavigationStack { HomeView() }.tabItem{Label("Home",systemImage:"house.fill")}
+  NavigationStack { RuleSearchView() }.tabItem{Label("Search",systemImage:"magnifyingglass")}
+  NavigationStack { AskView() }.tabItem{Label("Ask AI",systemImage:"mic.circle.fill")}
   NavigationStack { SettingsView() }.tabItem{Label("Setup",systemImage:"slider.horizontal.3")}
  }}
+}
+struct HomeView:View {
+ @EnvironmentObject var store:RuleStore
+ var body:some View { ScrollView{VStack(alignment:.leading,spacing:18){
+  Text("Diamond Rules").font(.largeTitle).bold()
+  Text("Your Baseball & Softball Rules Companion").foregroundStyle(.secondary)
+  VStack(alignment:.leading,spacing:6){Text("CURRENT SELECTION").font(.caption2).bold().foregroundStyle(.secondary);Text("\(store.context.organization.rawValue) • \(store.context.sport.rawValue) • \(store.context.division.rawValue)").bold();Text("\(store.context.gameType.rawValue) • \(store.context.ruleMode.rawValue)").font(.caption)}.padding().frame(maxWidth:.infinity,alignment:.leading).background(.blue.opacity(.08),in:RoundedRectangle(cornerRadius:16))
+  Text("Search rules or speak/type a game situation in Ask AI.").font(.headline)
+ }.padding()}}.navigationBarTitleDisplayMode(.inline)
 }
 struct SettingsView:View {
  @EnvironmentObject var store:RuleStore
  var body:some View { Form {
-  Picker("Organization",selection:$store.context.organization){ForEach(Organization.allCases){Text($0.rawValue).tag($0)}}
-  Picker("Sport",selection:$store.context.sport){ForEach(store.availableSports){Text($0.rawValue).tag($0)}}
-  Picker("Division / Age",selection:$store.context.division){ForEach(store.availableDivisions){Text($0.rawValue).tag($0)}}
-  Picker("Game",selection:$store.context.gameType){ForEach(GameType.allCases){Text($0.rawValue).tag($0)}}
-  Section("Rules Source"){Text(store.context.organization == .usssa ? "USSSA rules remain separate from Little League rules." : "Little League rules remain separate from USSSA rules.").font(.caption).foregroundStyle(.secondary)}
-  Section("Disclaimer"){Text("Diamond Rules is an independent rules-reference tool. It is not affiliated with, endorsed by, sponsored by, or an official application of Little League, USSSA, or any other governing organization whose rules are referenced or interpreted. Official rules and rulings from the applicable governing organization remain controlling.").font(.caption).foregroundStyle(.secondary)}
- }.navigationTitle("Game Setup").onChange(of:store.context.organization){_,_ in store.normalizeContext()}.onChange(of:store.context.sport){_,_ in store.normalizeContext()} }
+  Section("1. Governing Organization"){Picker("Organization",selection:$store.context.organization){ForEach(Organization.allCases){Text($0.rawValue).tag($0)}}}
+  Section("2. Sport"){Picker("Sport",selection:$store.context.sport){ForEach(store.availableSports){Text($0.rawValue).tag($0)}}}
+  Section("3. Division / Age"){Picker("Division",selection:$store.context.division){ForEach(store.availableDivisions){Text($0.rawValue).tag($0)}}}
+  Section("4. Season Type"){Picker("Season",selection:$store.context.gameType){ForEach(GameType.allCases){Text($0.rawValue).tag($0)}}}
+  Section("5. Rule Context"){Picker("Context",selection:$store.context.ruleMode){ForEach(RuleMode.allCases){Text($0.rawValue).tag($0)}}}
+  Section("Important Disclaimer"){Text("Diamond Rules is an independent rules-reference tool. It is not affiliated with, endorsed by, sponsored by, or an official application of any governing organization whose rules are referenced or interpreted. Official rules and rulings from the applicable governing organization remain controlling.").font(.caption)}
+ }.navigationTitle("Setup").onChange(of:store.context.organization){_,_ in store.normalizeContext()}.onChange(of:store.context.sport){_,_ in store.normalizeContext()} }
 }
