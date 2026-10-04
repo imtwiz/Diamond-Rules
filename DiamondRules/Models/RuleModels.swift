@@ -18,6 +18,7 @@ struct GameContext:Codable {
  var division:Division = .major
  var season:Int = 2026
  var gameType:GameType = .regular
+ var ruleMode:RuleMode = .gameTime
 }
 
 struct RuleRecord:Codable,Identifiable {
