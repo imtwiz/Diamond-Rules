@@ -31,7 +31,14 @@ app.post("/ask", async (req, res) => {
     const { question, context, candidateRules = [], conversation = [] } = req.body ?? {};
     if (!question || !context) return res.status(400).json({ error: "Missing question/context" });
 
-    const verified = candidateRules.filter(r => r.verified === true).slice(0, 8);
+    const verified = candidateRules.filter(r =>
+      r.verified === true &&
+      r.organization === context.organization &&
+      r.sport === context.sport &&
+      r.season === context.season &&
+      Array.isArray(r.divisions) && r.divisions.includes(context.division) &&
+      Array.isArray(r.gameTypes) && r.gameTypes.includes(context.gameType)
+    ).slice(0, 8);
     const rulesText = verified.length
       ? verified.map(r => `Rule ${r.ruleNumber} | ${r.topic}\nSummary: ${r.summary}\nRuling: ${r.ruling}\nOfficial text: ${r.officialText || "(not stored)"}\nSource: ${r.sourceLabel || r.officialSource || "(not supplied)"}\nExceptions: ${(r.exceptions || []).join("; ")}`).join("\n\n")
       : "NO VERIFIED LOCAL RULE RECORDS WERE RETRIEVED.";
@@ -42,8 +49,8 @@ Current context: ${context.season} ${context.sport}, ${context.division}, ${cont
 STRICT RULES:
 1. Base the ruling ONLY on the VERIFIED RULE RECORDS below.
 2. Never invent a rule number, subsection, penalty, exception, approved ruling, quotation, or division applicability.
-3. If supplied records do not establish the answer, set requiresOfficialVerification=true, confidence="Low", and say the official current Little League rulebook must be checked.
-4. Do not claim this app is affiliated with or endorsed by Little League.
+3. If supplied records do not establish the answer, set requiresOfficialVerification=true, confidence="Low", and say the official current governing organization rulebook must be checked.
+4. Never mix governing organizations. Use only records matching the selected organization.\n5. Do not claim this app is affiliated with or endorsed by Little League or USSSA.
 5. Keep the explanation concise and useful during a game.
 6. Return JSON only with keys: ruling, explanation, ruleNumbers, exceptions, confidence, requiresOfficialVerification.
 VERIFIED RULE RECORDS:
