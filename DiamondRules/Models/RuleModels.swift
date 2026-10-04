@@ -10,7 +10,7 @@ enum Division:String,Codable,CaseIterable,Identifiable {
  case u5="5U",u6="6U",u7="7U",u8="8U",u9="9U",u10="10U",u11="11U",u12="12U",u13="13U",u14="14U",u15="15U",u16="16U",u17="17U",u18="18U"
  var id:String{rawValue}
 }
-enum GameType:String,Codable,CaseIterable,Identifiable { case regular="Regular Season",tournament="Tournament"; var id:String{rawValue} }
+enum GameType:String,Codable,CaseIterable,Identifiable { case regular="Regular Season",tournament="Tournament"; var id:String{rawValue} }\nenum RuleMode:String,Codable,CaseIterable,Identifiable { case gameTime="Game-Time Rules",nonGameTime="Non-Game-Time Rules"; var id:String{rawValue} }
 
 struct GameContext:Codable {
  var organization:Organization = .littleLeague
