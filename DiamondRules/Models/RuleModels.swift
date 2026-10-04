@@ -1,6 +1,9 @@
 import Foundation
 
-enum Organization:String,Codable,CaseIterable,Identifiable { case littleLeague="Little League", usssa="USSSA"; var id:String{rawValue} }
+enum Organization:String,Codable,CaseIterable,Identifiable {
+ case littleLeague="Little League", usssa="USSSA", babeRuth="Babe Ruth League", calRipken="Cal Ripken Baseball", pony="PONY Baseball & Softball", nfhs="NFHS", ncaa="NCAA", mlb="MLB", perfectGame="Perfect Game"
+ var id:String{rawValue}
+}
 enum Sport:String,Codable,CaseIterable,Identifiable { case baseball="Baseball",softball="Softball",challenger="Challenger"; var id:String{rawValue} }
 enum Division:String,Codable,CaseIterable,Identifiable {
  case teeBall="Tee Ball",minor="Minor",major="Major",intermediate="Intermediate (50/70)",junior="Junior",senior="Senior",challenger="Challenger",seniorChallenger="Senior Challenger"
