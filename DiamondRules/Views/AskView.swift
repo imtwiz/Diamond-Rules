@@ -25,6 +25,7 @@ struct AskView:View {
     }
     TextField("Ask any baseball or softball rules question…",text:$question,axis:.vertical).textFieldStyle(.roundedBorder).lineLimit(3...7)
     Button(busy ? "Checking…" : "Get Ruling"){Task{await ask()}}.buttonStyle(.borderedProminent).controlSize(.large).frame(maxWidth:.infinity).disabled(question.trimmingCharacters(in:.whitespacesAndNewlines).isEmpty||busy)
+    if busy { ProgressView("Checking verified rules…").frame(maxWidth:.infinity) }
     if let a=answer { answerCard(a) }
     if let error { Text(error).foregroundStyle(.red).frame(maxWidth:.infinity,alignment:.leading) }
     Text("Diamond Rules is independent and is not affiliated with, endorsed by, sponsored by, or an official application of any governing organization whose rules are referenced or interpreted. Official rules and authorized officials remain controlling.").font(.caption).foregroundStyle(.secondary).padding(.top)
@@ -32,7 +33,7 @@ struct AskView:View {
   }.navigationTitle("Ask AI").onChange(of:speech.transcript){_,v in if !v.isEmpty{question=v}}
  }
  private var contextCard:some View { VStack(alignment:.leading,spacing:5){Text("CURRENT SELECTION").font(.caption2).bold().foregroundStyle(.secondary);Text("\(store.context.organization.rawValue)  |  \(store.context.sport.rawValue)  |  \(store.context.division.rawValue)").bold();Text("\(store.context.gameType.rawValue)  |  \(store.context.ruleMode.rawValue)").font(.caption)}.frame(maxWidth:.infinity,alignment:.leading).padding().background(.blue.opacity(0.08),in:RoundedRectangle(cornerRadius:14)) }
- @ViewBuilder private func answerCard(_ a:AIAnswer)->some View { VStack(alignment:.leading,spacing:10){Text(a.ruling).font(.title2).bold();Text(a.explanation);if !a.ruleNumbers.isEmpty{Label("Rule "+a.ruleNumbers.joined(separator:", "),systemImage:"book.closed").bold()};Text("Confidence: "+a.confidence).font(.caption);if a.requiresOfficialVerification{Label("Official rule verification required.",systemImage:"exclamationmark.triangle.fill").foregroundStyle(.orange)}}.frame(maxWidth:.infinity,alignment:.leading).padding().background(.thinMaterial,in:RoundedRectangle(cornerRadius:16)) }
+ @ViewBuilder private func answerCard(_ a:AIAnswer)->some View { VStack(alignment:.leading,spacing:10){Text(a.ruling).font(.title2).bold();Text(a.explanation);if !a.ruleNumbers.isEmpty{Label("Rule "+a.ruleNumbers.joined(separator:", "),systemImage:"book.closed").bold()};if !a.exceptions.isEmpty{Divider();Text("Exceptions / Notes").font(.headline);ForEach(a.exceptions,id:\\.self){Text("• "+$0)}};Text("Confidence: "+a.confidence).font(.caption);if a.requiresOfficialVerification{Label("Official rule verification required.",systemImage:"exclamationmark.triangle.fill").foregroundStyle(.orange)}}.frame(maxWidth:.infinity,alignment:.leading).padding().background(.thinMaterial,in:RoundedRectangle(cornerRadius:16)) }
  private func toggleSpeech() async { if speech.isRecording { speech.stop(); return }; do { try await speech.start() } catch { self.error=error.localizedDescription } }
  private func ask() async { speech.stop();store.addRecentQuestion(question);busy=true;defer{busy=false};do{answer=try await AIService().ask(question:question,context:store.context,candidates:Array(store.search(question).prefix(8)));error=nil}catch{self.error="Could not reach the rules service.";answer=nil}}
 }
