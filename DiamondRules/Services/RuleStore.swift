@@ -3,9 +3,19 @@ import Foundation
  @Published var context=GameContext(); @Published var rules:[RuleRecord]=[]
  init(){ load() }
 
- var availableSports:[Sport] { context.organization == .littleLeague ? [.baseball,.softball,.challenger] : [.baseball,.softball] }
+ var availableSports:[Sport] {
+  switch context.organization {
+   case .littleLeague: return [.baseball,.softball,.challenger]
+   case .usssa,.babeRuth,.pony,.nfhs,.ncaa: return [.baseball,.softball]
+   case .calRipken,.mlb,.perfectGame: return [.baseball]
+  }
+ }
  var availableDivisions:[Division] {
-  if context.organization == .usssa { return [.u5,.u6,.u7,.u8,.u9,.u10,.u11,.u12,.u13,.u14,.u15,.u16,.u17,.u18] }
+  if [.usssa,.perfectGame].contains(context.organization) { return [.u5,.u6,.u7,.u8,.u9,.u10,.u11,.u12,.u13,.u14,.u15,.u16,.u17,.u18] }
+  if context.organization == .calRipken { return [.teeBall,.minor,.major] }
+  if context.organization == .babeRuth { return [.u13,.u14,.u15,.u16,.u17,.u18] }
+  if context.organization == .pony { return [.u5,.u6,.u7,.u8,.u9,.u10,.u11,.u12,.u13,.u14,.u15,.u16,.u17,.u18] }
+  if [.nfhs,.ncaa,.mlb].contains(context.organization) { return [.senior] }
   switch context.sport {
    case .challenger: return [.challenger,.seniorChallenger]
    case .baseball: return [.teeBall,.minor,.major,.intermediate,.junior,.senior]
