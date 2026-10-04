@@ -2334,5 +2334,527 @@
     "officialText": null,
     "sourceLabel": "Little League official rules education",
     "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-pitchcount-7-8",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "Regulation VI",
+    "topic": "Pitch Count — League Age 7-8",
+    "summary": "Little League's official pitch-count guidance sets a maximum of 50 pitches per day for league-age 7- and 8-year-old pitchers.",
+    "ruling": "50 PITCHES MAXIMUM PER DAY",
+    "exceptions": [],
+    "keywords": [
+      "pitch count",
+      "7 year old",
+      "8 year old",
+      "50 pitches"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-pitchcount-9-10",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "Regulation VI",
+    "topic": "Pitch Count — League Age 9-10",
+    "summary": "Little League's official pitch-count guidance sets a maximum of 75 pitches per day for league-age 9- and 10-year-old pitchers.",
+    "ruling": "75 PITCHES MAXIMUM PER DAY",
+    "exceptions": [],
+    "keywords": [
+      "pitch count",
+      "9 year old",
+      "10 year old",
+      "75 pitches"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-pitchcount-11-12",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Major"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "Regulation VI",
+    "topic": "Pitch Count — League Age 11-12",
+    "summary": "Little League's official pitch-count guidance sets a maximum of 85 pitches per day for league-age 11- and 12-year-old pitchers.",
+    "ruling": "85 PITCHES MAXIMUM PER DAY",
+    "exceptions": [],
+    "keywords": [
+      "pitch count",
+      "11 year old",
+      "12 year old",
+      "85 pitches"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-pitchcount-13-16",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "Regulation VI",
+    "topic": "Pitch Count — League Age 13-16",
+    "summary": "Little League's official pitch-count guidance sets a maximum of 95 pitches per day for league-age 13 through 16 pitchers.",
+    "ruling": "95 PITCHES MAXIMUM PER DAY",
+    "exceptions": [],
+    "keywords": [
+      "pitch count",
+      "13",
+      "14",
+      "15",
+      "16",
+      "95 pitches"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-pitchcount-17-18",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "Regulation VI",
+    "topic": "Pitch Count — League Age 17-18",
+    "summary": "Little League's official pitch-count guidance sets a maximum of 105 pitches per day for league-age 17- and 18-year-old pitchers.",
+    "ruling": "105 PITCHES MAXIMUM PER DAY",
+    "exceptions": [],
+    "keywords": [
+      "pitch count",
+      "17",
+      "18",
+      "105 pitches"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-rest-1-20",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "Regulation VI",
+    "topic": "Pitching Rest — 1-20 Pitches",
+    "summary": "For league-age 14 and under, Little League's pitch-count guidance provides that 1-20 pitches in a day requires no calendar day of rest, subject to current rulebook provisions.",
+    "ruling": "NO CALENDAR DAY REST REQUIRED",
+    "exceptions": [],
+    "keywords": [
+      "pitch rest",
+      "1-20",
+      "rest days",
+      "pitch count"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-rest-21-35",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "Regulation VI",
+    "topic": "Pitching Rest — 21-35 Pitches",
+    "summary": "For league-age 14 and under, 21-35 pitches in a day requires one calendar day of rest, subject to current rulebook provisions.",
+    "ruling": "1 CALENDAR DAY REST",
+    "exceptions": [],
+    "keywords": [
+      "pitch rest",
+      "21-35",
+      "one day rest"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-rest-36-50",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "Regulation VI",
+    "topic": "Pitching Rest — 36-50 Pitches",
+    "summary": "For league-age 14 and under, 36-50 pitches in a day requires two calendar days of rest, subject to current rulebook provisions.",
+    "ruling": "2 CALENDAR DAYS REST",
+    "exceptions": [],
+    "keywords": [
+      "pitch rest",
+      "36-50",
+      "two days rest"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-rest-51-65",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "Regulation VI",
+    "topic": "Pitching Rest — 51-65 Pitches",
+    "summary": "For league-age 14 and under, 51-65 pitches in a day requires three calendar days of rest, subject to current rulebook provisions.",
+    "ruling": "3 CALENDAR DAYS REST",
+    "exceptions": [],
+    "keywords": [
+      "pitch rest",
+      "51-65",
+      "three days rest"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-rest-66plus",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "Regulation VI",
+    "topic": "Pitching Rest — 66+ Pitches",
+    "summary": "For league-age 14 and under, 66 or more pitches in a day requires four calendar days of rest, subject to current rulebook provisions.",
+    "ruling": "4 CALENDAR DAYS REST",
+    "exceptions": [],
+    "keywords": [
+      "pitch rest",
+      "66 pitches",
+      "four days rest"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-sub-regular-starter-return-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "3.03",
+    "topic": "Starter Re-Entry — Regular Season",
+    "summary": "Little League's regular-season substitution framework permits an eligible starter to re-enter once after the substitute has met mandatory-play requirements, subject to division and continuous-batting-order rules.",
+    "ruling": "STARTER MAY RE-ENTER WHEN REQUIREMENTS ARE MET",
+    "exceptions": [],
+    "keywords": [
+      "substitution",
+      "re-entry",
+      "starter",
+      "regular season"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/regular-season-to-tournament-rule-differences/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-sub-regular-starter-return-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "3.03",
+    "topic": "Starter Re-Entry — Regular Season",
+    "summary": "Little League's regular-season substitution framework permits an eligible starter to re-enter once after the substitute has met mandatory-play requirements, subject to division and continuous-batting-order rules.",
+    "ruling": "STARTER MAY RE-ENTER WHEN REQUIREMENTS ARE MET",
+    "exceptions": [],
+    "keywords": [
+      "substitution",
+      "re-entry",
+      "starter",
+      "regular season"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/regular-season-to-tournament-rule-differences/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-sub-tournament-cbo-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Tournament"
+    ],
+    "ruleNumber": "Tournament Rule 3",
+    "topic": "Tournament Continuous Batting Order",
+    "summary": "For tournament play in Junior Division and below, all players listed on the affidavit and present at the start are included in the batting order under Little League's tournament continuous-batting-order framework.",
+    "ruling": "ALL PRESENT AFFIDAVIT PLAYERS BAT",
+    "exceptions": [],
+    "keywords": [
+      "tournament",
+      "continuous batting order",
+      "substitution",
+      "Junior"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/regular-season-to-tournament-rule-differences/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-sub-tournament-cbo-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Tournament"
+    ],
+    "ruleNumber": "Tournament Rule 3",
+    "topic": "Tournament Continuous Batting Order",
+    "summary": "For tournament play in Junior Division and below, all players listed on the affidavit and present at the start are included in the batting order under Little League's tournament continuous-batting-order framework.",
+    "ruling": "ALL PRESENT AFFIDAVIT PLAYERS BAT",
+    "exceptions": [],
+    "keywords": [
+      "tournament",
+      "continuous batting order",
+      "substitution",
+      "Junior"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/regular-season-to-tournament-rule-differences/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-equipment-jewelry-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "1.11",
+    "topic": "Player Jewelry",
+    "summary": "Little League equipment and uniform rules restrict player jewelry except where the current rulebook provides an exception. Verify the current rule text for medical-alert and other permitted items.",
+    "ruling": "JEWELRY RESTRICTED — CHECK CURRENT EXCEPTIONS",
+    "exceptions": [],
+    "keywords": [
+      "jewelry",
+      "necklace",
+      "bracelet",
+      "equipment"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/rules-regulations-policies/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-equipment-jewelry-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "1.11",
+    "topic": "Player Jewelry",
+    "summary": "Little League equipment and uniform rules restrict player jewelry except where the current rulebook provides an exception. Verify the current rule text for medical-alert and other permitted items.",
+    "ruling": "JEWELRY RESTRICTED — CHECK CURRENT EXCEPTIONS",
+    "exceptions": [],
+    "keywords": [
+      "jewelry",
+      "necklace",
+      "bracelet",
+      "equipment"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/rules-regulations-policies/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official public guidance",
+    "reviewedOn": "2026-10-04"
   }
 ]
