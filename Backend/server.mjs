@@ -50,6 +50,14 @@ app.post("/ask", async (req, res) => {
       Array.isArray(r.divisions) && r.divisions.includes(context.division) &&
       Array.isArray(r.gameTypes) && r.gameTypes.includes(context.gameType)
     ).slice(0, 8);
+    const allowedNumbers = [...new Set(verified.map(r => String(r.ruleNumber)))];
+    const responseSchema = {
+      ...answerSchema,
+      properties: {
+        ...answerProperties,
+        ruleNumbers: { type: "array", items: allowedNumbers.length ? { type: "string", enum: allowedNumbers } : { type: "string" } }
+      }
+    };
     const rulesText = verified.length
       ? verified.map(r => `Rule ${r.ruleNumber} | ${r.topic}\nSummary: ${r.summary}\nRuling: ${r.ruling}\nDecision type: ${r.decisionType || "(not established)"}\nRule requirement: ${r.hardRule || "(not established)"}\nUmpire judgment: ${r.judgment || "(none specified)"}\nAppeal/protest: ${r.appeal || "(not established)"}\nDetails: ${r.details || "(not established)"}\nPenalty: ${r.penalty || "(not established)"}\nBase award: ${r.award || "(not established)"}\nBall status: ${r.ballStatus || "(not established)"}\nExample: ${r.example || "(not supplied)"}\nOfficial text: ${r.officialText || "(not stored)"}\nSource: ${r.sourceLabel || r.officialSource || "(not supplied)"}\nExceptions: ${(r.exceptions || []).join("; ")}`).join("\n\n")
       : "NO VERIFIED LOCAL RULE RECORDS WERE RETRIEVED.";
@@ -78,7 +86,7 @@ ${question}`;
     const response = await client.responses.create({
       model: process.env.OPENAI_MODEL || "gpt-5.6",
       input: prompt,
-      text: { format: { type: "json_schema", name: "rules_answer", strict: true, schema: answerSchema } },
+      text: { format: { type: "json_schema", name: "rules_answer", strict: true, schema: responseSchema } },
       store: false
     });
 
