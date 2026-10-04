@@ -80,4 +80,17 @@ ${question}`;
 });
 
 const port = Number(process.env.PORT || 8787);
-app.listen(port, "0.0.0.0", () => console.log(`Diamond Rules API listening on ${port}`));
+app.listen(port, "0.0.0.0", async () => {
+  console.log(`Diamond Rules API listening on ${port}`);
+  if (!process.env.OPENAI_API_KEY) {
+    console.log("OpenAI startup check: NOT CONFIGURED");
+    return;
+  }
+  try {
+    const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+    await client.models.list();
+    console.log("OpenAI startup check: CONNECTED");
+  } catch (err) {
+    console.log(`OpenAI startup check: FAILED (${err?.status || "connection error"})`);
+  }
+});
