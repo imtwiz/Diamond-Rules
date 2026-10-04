@@ -1,6 +1,7 @@
 import SwiftUI
 struct RuleSearchView:View {
- @EnvironmentObject var store:RuleStore; @State private var q=""
+ @EnvironmentObject var store:RuleStore; @State private var q:String
+ init(initialQuery:String=""){_q=State(initialValue:initialQuery)}
  let quick=["Dropped Third Strike","Infield Fly","Mercy Rule","Pitch Count","Time Limit","Balk","Obstruction","Runner Interference","Bat Rules","Equipment"]
  var body:some View { List {
   if q.isEmpty { Section("Quick Searches"){ForEach(quick,id:\.self){term in Button(term){q=term}}} }
