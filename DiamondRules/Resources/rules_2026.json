@@ -1251,5 +1251,557 @@
     "officialText": null,
     "sourceLabel": "Little League official public guidance",
     "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-interference-batted-ball-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "7.08(f)",
+    "topic": "Runner Hit by Fair Batted Ball",
+    "summary": "If a fair batted ball in fair territory hits a runner before being touched by a fielder or passing an infielder other than the pitcher, the runner is out; the ball is dead and the batter-runner is awarded first base.",
+    "ruling": "RUNNER OUT — DEAD BALL",
+    "exceptions": [],
+    "keywords": [
+      "interference",
+      "runner hit by batted ball",
+      "fair ball",
+      "dead ball"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/help-center/rule-7-00-the-runner-faqs/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-interference-batted-ball-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "7.08(f)",
+    "topic": "Runner Hit by Fair Batted Ball",
+    "summary": "If a fair batted ball in fair territory hits a runner before being touched by a fielder or passing an infielder other than the pitcher, the runner is out; the ball is dead and the batter-runner is awarded first base.",
+    "ruling": "RUNNER OUT — DEAD BALL",
+    "exceptions": [],
+    "keywords": [
+      "interference",
+      "runner hit by batted ball",
+      "fair ball",
+      "dead ball"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/help-center/rule-7-00-the-runner-faqs/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-interference-thrown-ball-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.05(l) / 7.08(b) / 7.09(j)",
+    "topic": "Runner Interference With Thrown Ball",
+    "summary": "Little League's Rule 7 FAQ distinguishes thrown-ball interference from a runner being struck by a batted ball: on a thrown ball, the umpire must judge the runner's interference to be intentional.",
+    "ruling": "INTENT REQUIRED ON THROWN-BALL INTERFERENCE",
+    "exceptions": [],
+    "keywords": [
+      "interference",
+      "thrown ball",
+      "intentional",
+      "runner"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/help-center/rule-7-00-the-runner-faqs/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-interference-thrown-ball-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.05(l) / 7.08(b) / 7.09(j)",
+    "topic": "Runner Interference With Thrown Ball",
+    "summary": "Little League's Rule 7 FAQ distinguishes thrown-ball interference from a runner being struck by a batted ball: on a thrown ball, the umpire must judge the runner's interference to be intentional.",
+    "ruling": "INTENT REQUIRED ON THROWN-BALL INTERFERENCE",
+    "exceptions": [],
+    "keywords": [
+      "interference",
+      "thrown ball",
+      "intentional",
+      "runner"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/help-center/rule-7-00-the-runner-faqs/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-interference-grounder-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "7.09",
+    "topic": "Interference on Ground Ball Before Infielder",
+    "summary": "Little League's official case example rules interference when a ground ball strikes the runner before reaching the second baseman: dead ball, runner out, batter awarded first; other runners return unless forced by that award.",
+    "ruling": "RUNNER OUT — BATTER TO FIRST",
+    "exceptions": [],
+    "keywords": [
+      "ground ball",
+      "interference",
+      "second baseman",
+      "runner out"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/defining-interference-and-obstruction/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-interference-grounder-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "7.09",
+    "topic": "Interference on Ground Ball Before Infielder",
+    "summary": "Little League's official case example rules interference when a ground ball strikes the runner before reaching the second baseman: dead ball, runner out, batter awarded first; other runners return unless forced by that award.",
+    "ruling": "RUNNER OUT — BATTER TO FIRST",
+    "exceptions": [],
+    "keywords": [
+      "ground ball",
+      "interference",
+      "second baseman",
+      "runner out"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/defining-interference-and-obstruction/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-batting-order-appeal-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.07(b)",
+    "topic": "Batting Out of Turn — Timely Appeal",
+    "summary": "If an improper batter becomes a runner or is retired and the defense appeals before the first pitch to the next batter or before a play/attempted play, the proper batter is out and advances or scores caused by the improper batter's action are nullified.",
+    "ruling": "PROPER BATTER OUT — IMPROPER BATTER ACTION NULLIFIED",
+    "exceptions": [],
+    "keywords": [
+      "batting out of order",
+      "batting out of turn",
+      "improper batter",
+      "appeal"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/hey-blue-the-batted-out-of-order/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-batting-order-appeal-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.07(b)",
+    "topic": "Batting Out of Turn — Timely Appeal",
+    "summary": "If an improper batter becomes a runner or is retired and the defense appeals before the first pitch to the next batter or before a play/attempted play, the proper batter is out and advances or scores caused by the improper batter's action are nullified.",
+    "ruling": "PROPER BATTER OUT — IMPROPER BATTER ACTION NULLIFIED",
+    "exceptions": [],
+    "keywords": [
+      "batting out of order",
+      "batting out of turn",
+      "improper batter",
+      "appeal"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/hey-blue-the-batted-out-of-order/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-batting-order-independent-advance-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.07(b)",
+    "topic": "Batting Out of Turn — Runner Advances Independently",
+    "summary": "A runner's advance during an improper at-bat that occurs independently of the improper batter's action, such as on a wild pitch or passed ball, remains legal after a timely batting-out-of-turn appeal.",
+    "ruling": "INDEPENDENT RUNNER ADVANCE STANDS",
+    "exceptions": [],
+    "keywords": [
+      "batting out of order",
+      "wild pitch",
+      "passed ball",
+      "runner advance"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/hey-blue-the-batted-out-of-order/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-batting-order-independent-advance-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.07(b)",
+    "topic": "Batting Out of Turn — Runner Advances Independently",
+    "summary": "A runner's advance during an improper at-bat that occurs independently of the improper batter's action, such as on a wild pitch or passed ball, remains legal after a timely batting-out-of-turn appeal.",
+    "ruling": "INDEPENDENT RUNNER ADVANCE STANDS",
+    "exceptions": [],
+    "keywords": [
+      "batting out of order",
+      "wild pitch",
+      "passed ball",
+      "runner advance"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/hey-blue-the-batted-out-of-order/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-fly-retouch-appeal-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "7.00",
+    "topic": "Leaving Base Before Caught Fly — Appeal",
+    "summary": "A runner who leaves before a fly ball is caught is not automatically out. The defense must retire the runner by tagging the runner off base or appeal the failure to properly retouch the original base.",
+    "ruling": "APPEAL REQUIRED — NOT AUTOMATICALLY OUT",
+    "exceptions": [],
+    "keywords": [
+      "tag up",
+      "retouch",
+      "fly ball",
+      "appeal",
+      "left early"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/help-center/rule-2-00-definition-of-terms-the-batter-faqs/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-fly-retouch-appeal-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "7.00",
+    "topic": "Leaving Base Before Caught Fly — Appeal",
+    "summary": "A runner who leaves before a fly ball is caught is not automatically out. The defense must retire the runner by tagging the runner off base or appeal the failure to properly retouch the original base.",
+    "ruling": "APPEAL REQUIRED — NOT AUTOMATICALLY OUT",
+    "exceptions": [],
+    "keywords": [
+      "tag up",
+      "retouch",
+      "fly ball",
+      "appeal",
+      "left early"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/help-center/rule-2-00-definition-of-terms-the-batter-faqs/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-appeal-timing-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "Appeal Rules",
+    "topic": "Appeal Timing",
+    "summary": "Little League's official guidance says an appeal of a possible playing-rule violation must be made before the next pitch, play, or attempted play; an appeal itself is not considered a play.",
+    "ruling": "APPEAL BEFORE NEXT PITCH, PLAY, OR ATTEMPTED PLAY",
+    "exceptions": [],
+    "keywords": [
+      "appeal",
+      "next pitch",
+      "attempted play",
+      "timing"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-appeal-timing-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "Appeal Rules",
+    "topic": "Appeal Timing",
+    "summary": "Little League's official guidance says an appeal of a possible playing-rule violation must be made before the next pitch, play, or attempted play; an appeal itself is not considered a play.",
+    "ruling": "APPEAL BEFORE NEXT PITCH, PLAY, OR ATTEMPTED PLAY",
+    "exceptions": [],
+    "keywords": [
+      "appeal",
+      "next pitch",
+      "attempted play",
+      "timing"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-batting-order-appeal-timing-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.07",
+    "topic": "Batting Out of Turn — Appeal Deadline",
+    "summary": "A batting-out-of-turn infraction must be appealed before a pitch is delivered to the next batter of either team or before a play or attempted play.",
+    "ruling": "APPEAL BEFORE NEXT PITCH OR PLAY",
+    "exceptions": [],
+    "keywords": [
+      "batting out of order",
+      "appeal deadline",
+      "next batter"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-batting-order-appeal-timing-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.07",
+    "topic": "Batting Out of Turn — Appeal Deadline",
+    "summary": "A batting-out-of-turn infraction must be appealed before a pitch is delivered to the next batter of either team or before a play or attempted play.",
+    "ruling": "APPEAL BEFORE NEXT PITCH OR PLAY",
+    "exceptions": [],
+    "keywords": [
+      "batting out of order",
+      "appeal deadline",
+      "next batter"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education / FAQ",
+    "reviewedOn": "2026-10-04"
   }
 ]
