@@ -1803,5 +1803,536 @@
     "officialText": null,
     "sourceLabel": "Little League official rules education / FAQ",
     "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-obstruction-fielder-no-ball-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "2.00 / 7.06",
+    "topic": "Obstruction — Fielder Without Ball",
+    "summary": "A defensive player who does not have the ball and is not in the act of fielding it may not impede a runner's progress. The umpire applies the obstruction rule and awards bases as required by the type of obstruction.",
+    "ruling": "OBSTRUCTION — APPLY BASE AWARD",
+    "exceptions": [],
+    "keywords": [
+      "obstruction",
+      "fielder",
+      "blocks base",
+      "no ball"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/defining-interference-and-obstruction/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-obstruction-fielder-no-ball-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "2.00 / 7.06",
+    "topic": "Obstruction — Fielder Without Ball",
+    "summary": "A defensive player who does not have the ball and is not in the act of fielding it may not impede a runner's progress. The umpire applies the obstruction rule and awards bases as required by the type of obstruction.",
+    "ruling": "OBSTRUCTION — APPLY BASE AWARD",
+    "exceptions": [],
+    "keywords": [
+      "obstruction",
+      "fielder",
+      "blocks base",
+      "no ball"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/defining-interference-and-obstruction/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-obstruction-fake-tag-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "2.00 / 7.06",
+    "topic": "Obstruction — Fake Tag",
+    "summary": "A fake tag that impedes a runner can constitute obstruction because a fielder without the ball may not hinder the runner.",
+    "ruling": "OBSTRUCTION MAY BE CALLED",
+    "exceptions": [],
+    "keywords": [
+      "fake tag",
+      "obstruction",
+      "runner"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/defining-interference-and-obstruction/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-obstruction-fake-tag-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "2.00 / 7.06",
+    "topic": "Obstruction — Fake Tag",
+    "summary": "A fake tag that impedes a runner can constitute obstruction because a fielder without the ball may not hinder the runner.",
+    "ruling": "OBSTRUCTION MAY BE CALLED",
+    "exceptions": [],
+    "keywords": [
+      "fake tag",
+      "obstruction",
+      "runner"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/defining-interference-and-obstruction/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-infield-fly-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "2.00",
+    "topic": "Infield Fly",
+    "summary": "An infield fly is a fair fly ball, not including a line drive or attempted bunt, that can be caught by an infielder with ordinary effort when first and second, or first, second and third, are occupied with fewer than two outs.",
+    "ruling": "BATTER OUT WHEN INFIELD FLY IS DECLARED",
+    "exceptions": [],
+    "keywords": [
+      "infield fly",
+      "bases loaded",
+      "first second",
+      "less than two outs"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-infield-fly-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "2.00",
+    "topic": "Infield Fly",
+    "summary": "An infield fly is a fair fly ball, not including a line drive or attempted bunt, that can be caught by an infielder with ordinary effort when first and second, or first, second and third, are occupied with fewer than two outs.",
+    "ruling": "BATTER OUT WHEN INFIELD FLY IS DECLARED",
+    "exceptions": [],
+    "keywords": [
+      "infield fly",
+      "bases loaded",
+      "first second",
+      "less than two outs"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-d3k-major-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Major"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.05(b)",
+    "topic": "Uncaught Third Strike — Major Baseball",
+    "summary": "In Major Baseball, the batter may attempt to advance on an uncaught third strike when first base is unoccupied, or when first base is occupied with two outs, subject to the rule's conditions.",
+    "ruling": "BATTER MAY RUN WHEN CONDITIONS ARE MET",
+    "exceptions": [],
+    "keywords": [
+      "dropped third strike",
+      "uncaught third strike",
+      "Major",
+      "first base"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-d3k-upper-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.05(b)",
+    "topic": "Uncaught Third Strike — Upper Baseball Divisions",
+    "summary": "In Intermediate, Junior and Senior Baseball, the batter may attempt to advance on an uncaught third strike when first base is unoccupied, or when first base is occupied with two outs, subject to the rule's conditions.",
+    "ruling": "BATTER MAY RUN WHEN CONDITIONS ARE MET",
+    "exceptions": [],
+    "keywords": [
+      "dropped third strike",
+      "uncaught third strike",
+      "first base"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-d3k-softball",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.05(b)",
+    "topic": "Uncaught Third Strike — Softball",
+    "summary": "In applicable Little League Softball divisions, the batter may attempt to advance on an uncaught third strike when first base is unoccupied, or with two outs when first base is occupied, subject to division rules.",
+    "ruling": "BATTER MAY RUN WHEN CONDITIONS ARE MET",
+    "exceptions": [],
+    "keywords": [
+      "dropped third strike",
+      "uncaught third strike",
+      "softball"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-no-d3k-minor-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.05(b)",
+    "topic": "Uncaught Third Strike — Tee Ball/Minor",
+    "summary": "The uncaught-third-strike advance rule is not used in Tee Ball and Minor Baseball in the same manner as Major and upper divisions.",
+    "ruling": "BATTER DOES NOT ADVANCE UNDER MAJOR D3K RULE",
+    "exceptions": [],
+    "keywords": [
+      "dropped third strike",
+      "Minor",
+      "Tee Ball"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-runner-lane-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.05(j)",
+    "topic": "Runner's Lane Interference",
+    "summary": "A batter-runner can be called out for interfering with the fielder taking a throw at first while running outside the required runner's lane during the last half of the distance to first base, subject to the rule's exceptions.",
+    "ruling": "BATTER-RUNNER OUT IF RUNNER'S LANE INTERFERENCE IS CALLED",
+    "exceptions": [],
+    "keywords": [
+      "runner lane",
+      "45 foot lane",
+      "first base",
+      "interference"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-runner-lane-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "6.05(j)",
+    "topic": "Runner's Lane Interference",
+    "summary": "A batter-runner can be called out for interfering with the fielder taking a throw at first while running outside the required runner's lane during the last half of the distance to first base, subject to the rule's exceptions.",
+    "ruling": "BATTER-RUNNER OUT IF RUNNER'S LANE INTERFERENCE IS CALLED",
+    "exceptions": [],
+    "keywords": [
+      "runner lane",
+      "first base",
+      "interference"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-basepath-three-feet-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "7.08(a)(1)",
+    "topic": "Runner Out of Base Path",
+    "summary": "A runner is out when the runner goes more than three feet away from the established base path to avoid a tag. The base path is established when a tag attempt occurs; runners do not have to run in a straight line between bases.",
+    "ruling": "RUNNER OUT IF MORE THAN THREE FEET TO AVOID TAG",
+    "exceptions": [],
+    "keywords": [
+      "base path",
+      "three feet",
+      "avoid tag",
+      "runner"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-basepath-three-feet-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "7.08(a)(1)",
+    "topic": "Runner Out of Base Path",
+    "summary": "A runner is out when the runner goes more than three feet away from the established base path to avoid a tag. The base path is established when a tag attempt occurs; runners do not have to run in a straight line between bases.",
+    "ruling": "RUNNER OUT IF MORE THAN THREE FEET TO AVOID TAG",
+    "exceptions": [],
+    "keywords": [
+      "base path",
+      "three feet",
+      "avoid tag",
+      "runner"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-sliding-not-required-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "7.08(a)(3)",
+    "topic": "Sliding Is Not Automatically Required",
+    "summary": "Little League does not have a general must-slide rule. A runner must slide or attempt to get around a fielder who has the ball and is waiting to make a tag; malicious or unsafe contact is handled under the applicable rule.",
+    "ruling": "NO GENERAL MUST-SLIDE RULE",
+    "exceptions": [],
+    "keywords": [
+      "must slide",
+      "sliding",
+      "collision",
+      "tag"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-sliding-not-required-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Tee Ball",
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season",
+      "Tournament"
+    ],
+    "ruleNumber": "7.08(a)(3)",
+    "topic": "Sliding Is Not Automatically Required",
+    "summary": "Little League does not have a general must-slide rule. A runner must slide or attempt to get around a fielder who has the ball and is waiting to make a tag; malicious or unsafe contact is handled under the applicable rule.",
+    "ruling": "NO GENERAL MUST-SLIDE RULE",
+    "exceptions": [],
+    "keywords": [
+      "must slide",
+      "sliding",
+      "collision",
+      "tag"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/common-little-league-rule-misconceptions-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rules education",
+    "reviewedOn": "2026-10-04"
   }
 ]
