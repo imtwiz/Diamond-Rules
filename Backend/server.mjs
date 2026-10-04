@@ -5,7 +5,12 @@ const app = express();
 app.use(express.json({ limit: "256kb" }));
 
 app.get("/", (_req, res) => res.json({ status: "ok", service: "Diamond Rules API" }));
-app.get("/health", (_req, res) => res.json({ status: "ok", service: "Diamond Rules API" }));
+app.get("/health", (_req, res) => res.json({
+  status: "ok",
+  service: "Diamond Rules API",
+  openaiConfigured: Boolean(process.env.OPENAI_API_KEY),
+  model: process.env.OPENAI_MODEL || "gpt-5.6"
+}));
 
 app.post("/ask", async (req, res) => {
   try {
