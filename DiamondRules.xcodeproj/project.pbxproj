@@ -1,0 +1,38 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+/* Begin PBXBuildFile section */
+A1={isa=PBXBuildFile;fileRef=B1;}; A2={isa=PBXBuildFile;fileRef=B2;}; A3={isa=PBXBuildFile;fileRef=B3;}; A4={isa=PBXBuildFile;fileRef=B4;}; A5={isa=PBXBuildFile;fileRef=B5;}; A6={isa=PBXBuildFile;fileRef=B6;}; A7={isa=PBXBuildFile;fileRef=B7;}; A8={isa=PBXBuildFile;fileRef=B8;};
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+B1={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=DiamondRulesApp.swift;sourceTree="<group>";};
+B2={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=RuleModels.swift;sourceTree="<group>";};
+B3={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=AIService.swift;sourceTree="<group>";};
+B4={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=RuleStore.swift;sourceTree="<group>";};
+B5={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=RootView.swift;sourceTree="<group>";};
+B6={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=AskView.swift;sourceTree="<group>";};
+B7={isa=PBXFileReference;lastKnownFileType=sourcecode.swift;path=RuleViews.swift;sourceTree="<group>";};
+B8={isa=PBXFileReference;lastKnownFileType=text.json;path=rules_2026.json;sourceTree="<group>";};
+B9={isa=PBXFileReference;lastKnownFileType=text.plist.xml;path=Info.plist;sourceTree="<group>";};
+BA={isa=PBXFileReference;explicitFileType=wrapper.application;includeInIndex=0;path=DiamondRules.app;sourceTree=BUILT_PRODUCTS_DIR;};
+/* End PBXFileReference section */
+C1={isa=PBXFrameworksBuildPhase;buildActionMask=2147483647;files=();runOnlyForDeploymentPostprocessing=0;};
+C2={isa=PBXSourcesBuildPhase;buildActionMask=2147483647;files=(A1,A2,A3,A4,A5,A6,A7);runOnlyForDeploymentPostprocessing=0;};
+C3={isa=PBXResourcesBuildPhase;buildActionMask=2147483647;files=(A8);runOnlyForDeploymentPostprocessing=0;};
+/* Begin PBXGroup section */
+D1={isa=PBXGroup;children=(D2,D7);sourceTree="<group>";};
+D2={isa=PBXGroup;path=DiamondRules;sourceTree="<group>";children=(B1,D3,D4,D5,D6,B9);};
+D3={isa=PBXGroup;path=Models;sourceTree="<group>";children=(B2);};
+D4={isa=PBXGroup;path=Services;sourceTree="<group>";children=(B3,B4);};
+D5={isa=PBXGroup;path=Views;sourceTree="<group>";children=(B5,B6,B7);};
+D6={isa=PBXGroup;path=Resources;sourceTree="<group>";children=(B8);};
+D7={isa=PBXGroup;name=Products;sourceTree="<group>";children=(BA);};
+/* End PBXGroup section */
+E1={isa=PBXNativeTarget;buildConfigurationList=F2;buildPhases=(C2,C1,C3);buildRules=();dependencies=();name=DiamondRules;productName=DiamondRules;productReference=BA;productType="com.apple.product-type.application";};
+E2={isa=PBXProject;attributes={BuildIndependentTargetsInParallel=1;LastSwiftUpdateCheck=1600;LastUpgradeCheck=1600;TargetAttributes={E1={CreatedOnToolsVersion=16.0;};};};buildConfigurationList=F1;compatibilityVersion="Xcode 14.0";developmentRegion=en;hasScannedForEncodings=0;knownRegions=(en,Base);mainGroup=D1;productRefGroup=D7;projectDirPath="";projectRoot="";targets=(E1);};
+G1={isa=XCBuildConfiguration;buildSettings={ALWAYS_SEARCH_USER_PATHS=NO;CLANG_ENABLE_MODULES=YES;DEBUG_INFORMATION_FORMAT=dwarf;ENABLE_TESTABILITY=YES;IPHONEOS_DEPLOYMENT_TARGET=17.0;SDKROOT=iphoneos;SWIFT_OPTIMIZATION_LEVEL="-Onone";};name=Debug;};
+G2={isa=XCBuildConfiguration;buildSettings={ALWAYS_SEARCH_USER_PATHS=NO;CLANG_ENABLE_MODULES=YES;DEBUG_INFORMATION_FORMAT="dwarf-with-dsym";IPHONEOS_DEPLOYMENT_TARGET=17.0;SDKROOT=iphoneos;SWIFT_COMPILATION_MODE=wholemodule;};name=Release;};
+G3={isa=XCBuildConfiguration;buildSettings={CODE_SIGN_STYLE=Automatic;CURRENT_PROJECT_VERSION=1;GENERATE_INFOPLIST_FILE=NO;INFOPLIST_FILE=DiamondRules/Info.plist;IPHONEOS_DEPLOYMENT_TARGET=17.0;MARKETING_VERSION=0.1;PRODUCT_BUNDLE_IDENTIFIER=com.imtwiz.diamondrules;PRODUCT_NAME="$(TARGET_NAME)";SUPPORTED_PLATFORMS="iphoneos iphonesimulator";SUPPORTS_MACCATALYST=NO;SWIFT_VERSION=5.0;TARGETED_DEVICE_FAMILY=1;};name=Debug;};
+G4={isa=XCBuildConfiguration;buildSettings={CODE_SIGN_STYLE=Automatic;CURRENT_PROJECT_VERSION=1;GENERATE_INFOPLIST_FILE=NO;INFOPLIST_FILE=DiamondRules/Info.plist;IPHONEOS_DEPLOYMENT_TARGET=17.0;MARKETING_VERSION=0.1;PRODUCT_BUNDLE_IDENTIFIER=com.imtwiz.diamondrules;PRODUCT_NAME="$(TARGET_NAME)";SUPPORTED_PLATFORMS="iphoneos iphonesimulator";SUPPORTS_MACCATALYST=NO;SWIFT_VERSION=5.0;TARGETED_DEVICE_FAMILY=1;};name=Release;};
+F1={isa=XCConfigurationList;buildConfigurations=(G1,G2);defaultConfigurationIsVisible=0;defaultConfigurationName=Release;};
+F2={isa=XCConfigurationList;buildConfigurations=(G3,G4);defaultConfigurationIsVisible=0;defaultConfigurationName=Release;};
+}; rootObject=E2; }
