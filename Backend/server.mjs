@@ -1,6 +1,17 @@
 import express from "express";
 import OpenAI from "openai";
 
+const nullableFields = ["penalty", "award", "ballStatus", "example", "decisionType", "hardRule", "judgment", "appeal"];
+const answerProperties = {
+  ruling: { type: "string" }, explanation: { type: "string" },
+  ruleNumbers: { type: "array", items: { type: "string" } },
+  exceptions: { type: "array", items: { type: "string" } },
+  confidence: { type: "string", enum: ["Low", "Medium", "High"] },
+  requiresOfficialVerification: { type: "boolean" },
+  ...Object.fromEntries(nullableFields.map(key => [key, { type: ["string", "null"] }]))
+};
+const answerSchema = { type: "object", properties: answerProperties, required: Object.keys(answerProperties), additionalProperties: false };
+
 const app = express();
 app.use(express.json({ limit: "256kb" }));
 
@@ -67,6 +78,7 @@ ${question}`;
     const response = await client.responses.create({
       model: process.env.OPENAI_MODEL || "gpt-5.6",
       input: prompt,
+      text: { format: { type: "json_schema", name: "rules_answer", strict: true, schema: answerSchema } },
       store: false
     });
 
