@@ -1,0 +1,2 @@
+# Install Diamond Rules on iPhone
+Open DiamondRules.xcodeproj in Xcode on a Mac. Select the DiamondRules target, choose your Apple ID/Personal Team under Signing & Capabilities, select your connected iPhone, and press Run. The app targets iOS 17+ and uses https://diamond-rules.onrender.com for AI requests.
