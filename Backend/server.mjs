@@ -40,19 +40,22 @@ app.post("/ask", async (req, res) => {
       Array.isArray(r.gameTypes) && r.gameTypes.includes(context.gameType)
     ).slice(0, 8);
     const rulesText = verified.length
-      ? verified.map(r => `Rule ${r.ruleNumber} | ${r.topic}\nSummary: ${r.summary}\nRuling: ${r.ruling}\nOfficial text: ${r.officialText || "(not stored)"}\nSource: ${r.sourceLabel || r.officialSource || "(not supplied)"}\nExceptions: ${(r.exceptions || []).join("; ")}`).join("\n\n")
+      ? verified.map(r => `Rule ${r.ruleNumber} | ${r.topic}\nSummary: ${r.summary}\nRuling: ${r.ruling}\nDecision type: ${r.decisionType || "(not established)"}\nRule requirement: ${r.hardRule || "(not established)"}\nUmpire judgment: ${r.judgment || "(none specified)"}\nAppeal/protest: ${r.appeal || "(not established)"}\nDetails: ${r.details || "(not established)"}\nPenalty: ${r.penalty || "(not established)"}\nBase award: ${r.award || "(not established)"}\nBall status: ${r.ballStatus || "(not established)"}\nExample: ${r.example || "(not supplied)"}\nOfficial text: ${r.officialText || "(not stored)"}\nSource: ${r.sourceLabel || r.officialSource || "(not supplied)"}\nExceptions: ${(r.exceptions || []).join("; ")}`).join("\n\n")
       : "NO VERIFIED LOCAL RULE RECORDS WERE RETRIEVED.";
 
     const history = conversation.slice(-8).map(m => `${m.role}: ${m.text}`).join("\n");
-    const prompt = `You are Diamond Rules, a game-day Little League rules reference assistant.
-Current context: ${context.season} ${context.sport}, ${context.division}, ${context.gameType}.
+    const prompt = `You are Diamond Rules, a game-day baseball and softball rules reference assistant.
+Current context: ${context.organization}, ${context.season} ${context.sport}, ${context.division}, ${context.gameType}.
 STRICT RULES:
 1. Base the ruling ONLY on the VERIFIED RULE RECORDS below.
 2. Never invent a rule number, subsection, penalty, exception, approved ruling, quotation, or division applicability.
 3. If supplied records do not establish the answer, set requiresOfficialVerification=true, confidence="Low", and say the official current governing organization rulebook must be checked.
 4. Never mix governing organizations. Use only records matching the selected organization.\n5. Do not claim this app is affiliated with or endorsed by Little League or USSSA.
-5. Keep the explanation concise and useful during a game.
-6. Return JSON only with keys: ruling, explanation, ruleNumbers, exceptions, confidence, requiresOfficialVerification.
+6. Explain the conditions and practical application in a few clear sentences. Include what happens to the batter and runners.
+7. Return JSON only with keys: ruling, explanation, ruleNumbers, exceptions, confidence, requiresOfficialVerification, penalty, award, ballStatus, example, decisionType, hardRule, judgment, appeal. All added fields must be strings or null.
+8. State the established penalty, base award (who receives which base and from what reference point), and live/dead-ball status separately. Never treat an absent consequence as "no penalty" or "no award". Use null for unestablished fields, explicitly identify missing consequences in the explanation, and set requiresOfficialVerification=true if needed to answer the question.
+10. Separate rule requirements from facts judged by the umpire. Copy appeal/protest limitations only from supplied records. Never claim every judgment can be challenged, or confuse a defensive runner/batting-order appeal with a protest.
+9. An example must illustrate only conditions established by the supplied records. Do not generalize a specific case to every interference or obstruction situation.
 VERIFIED RULE RECORDS:
 ${rulesText}
 RECENT CONVERSATION:
@@ -77,7 +80,14 @@ ${question}`;
     }
     res.json(parsed);
   } catch (err) {
-    console.error(err);
+    const code = err?.code || err?.error?.code;
+    console.error("Rules lookup failed", { status: err?.status, code });
+    if (["credit_balance_exhausted", "insufficient_quota"].includes(code) || err?.type === "insufficient_quota") {
+      return res.status(503).json({ error: "AI service credits exhausted", code: "AI_CREDITS_EXHAUSTED" });
+    }
+    if (err?.status === 429) {
+      return res.status(429).json({ error: "AI service request limit reached", code: "AI_RATE_LIMITED" });
+    }
     res.status(500).json({
       ruling: "Unable to verify",
       explanation: "The AI service could not complete a verified rules lookup.",
