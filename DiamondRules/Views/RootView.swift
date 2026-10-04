@@ -5,7 +5,7 @@ struct RootView:View {
   NavigationStack { HomeView() }.tabItem{Label("Home",systemImage:"house.fill")}
   NavigationStack { RuleSearchView() }.tabItem{Label("Search",systemImage:"magnifyingglass")}
   NavigationStack { AskView() }.tabItem{Label("Ask AI",systemImage:"mic.circle.fill")}
-  NavigationStack { SettingsView() }.tabItem{Label("Setup",systemImage:"slider.horizontal.3")}
+  NavigationStack { MoreView() }.tabItem{Label("More",systemImage:"ellipsis.circle")}
  }}
 }
 struct HomeView:View {
@@ -14,8 +14,18 @@ struct HomeView:View {
   Text("Diamond Rules").font(.largeTitle).bold()
   Text("Your Baseball & Softball Rules Companion").foregroundStyle(.secondary)
   VStack(alignment:.leading,spacing:6){Text("CURRENT SELECTION").font(.caption2).bold().foregroundStyle(.secondary);Text("\(store.context.organization.rawValue) • \(store.context.sport.rawValue) • \(store.context.division.rawValue)").bold();Text("\(store.context.gameType.rawValue) • \(store.context.ruleMode.rawValue)").font(.caption)}.padding().frame(maxWidth:.infinity,alignment:.leading).background(.blue.opacity(.08),in:RoundedRectangle(cornerRadius:16))
-  Text("Search rules or speak/type a game situation in Ask AI.").font(.headline)
+  Text("Game-Day Tools").font(.headline)
+  NavigationLink{RuleSearchView()}{Label("Search Rules",systemImage:"magnifyingglass").frame(maxWidth:.infinity,alignment:.leading).padding().background(.thinMaterial,in:RoundedRectangle(cornerRadius:14))}
+  NavigationLink{AskView()}{Label("Speak or Type Ask AI",systemImage:"mic.fill").frame(maxWidth:.infinity,alignment:.leading).padding().background(.thinMaterial,in:RoundedRectangle(cornerRadius:14))}
+  HStack{NavigationLink{FavoritesView()}{Label("Favorites",systemImage:"star.fill")};Spacer();NavigationLink{RecentQuestionsView()}{Label("Recent",systemImage:"clock.fill")}}.padding()
  }.padding()}}.navigationBarTitleDisplayMode(.inline)
+}
+struct MoreView:View {
+ var body:some View { List {
+  NavigationLink{SettingsView()}{Label("Change Setup",systemImage:"slider.horizontal.3")}
+  NavigationLink{FavoritesView()}{Label("Favorites",systemImage:"star")}
+  NavigationLink{RecentQuestionsView()}{Label("Recent Questions",systemImage:"clock")}
+ }.navigationTitle("More") }
 }
 struct SettingsView:View {
  @EnvironmentObject var store:RuleStore
