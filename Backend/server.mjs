@@ -11,6 +11,18 @@ app.get("/health", (_req, res) => res.json({
   openaiConfigured: Boolean(process.env.OPENAI_API_KEY),
   model: process.env.OPENAI_MODEL || "gpt-5.6"
 }));
+app.get("/health/openai", async (_req, res) => {
+  if (!process.env.OPENAI_API_KEY) {
+    return res.status(503).json({ status: "error", openaiConfigured: false, openaiReachable: false, reason: "OPENAI_API_KEY is not configured" });
+  }
+  try {
+    const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+    await client.models.list();
+    res.json({ status: "ok", openaiConfigured: true, openaiReachable: true, model: process.env.OPENAI_MODEL || "gpt-5.6" });
+  } catch (err) {
+    res.status(503).json({ status: "error", openaiConfigured: true, openaiReachable: false, reason: err?.status === 401 ? "API key rejected" : "OpenAI connection failed" });
+  }
+});
 
 app.post("/ask", async (req, res) => {
   try {
