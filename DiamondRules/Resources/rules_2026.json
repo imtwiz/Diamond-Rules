@@ -3300,5 +3300,638 @@
     "officialText": null,
     "sourceLabel": "Little League official public guidance",
     "reviewedOn": "2026-10-04"
+  },
+  {
+    "id": "ll-2026-run-8-regular-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "4.10(e)",
+    "topic": "Regular Season 8-run Rule",
+    "summary": "If the local league adopts this option, a 8-run lead can end a regulation game after five innings for Minor/Major, or after six innings for upper divisions. A home-team lead can end the game after its prior half-inning; the visiting team's lead must allow the home team its turn to bat.",
+    "ruling": "OPTIONAL REGULAR-SEASON 8-RUN RULE",
+    "exceptions": [
+      "League board must adopt the option for applicable divisions.",
+      "The home team must receive its half-inning when trailing.",
+      "Intermediate (50/70) baseball, Junior and Senior divisions use the longer inning threshold."
+    ],
+    "keywords": [
+      "run rule",
+      "mercy rule",
+      "8 runs",
+      "early game end",
+      "concede"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/the-10-run-rule-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-run-10-regular-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "4.10(e)",
+    "topic": "Regular Season 10-run Rule",
+    "summary": "If the local league adopts this option, a 10-run lead can end a regulation game after four innings for Minor/Major, or after five innings for upper divisions. A home-team lead can end the game after its prior half-inning; the visiting team's lead must allow the home team its turn to bat.",
+    "ruling": "OPTIONAL REGULAR-SEASON 10-RUN RULE",
+    "exceptions": [
+      "League board must adopt the option for applicable divisions.",
+      "The home team must receive its half-inning when trailing.",
+      "Intermediate (50/70) baseball, Junior and Senior divisions use the longer inning threshold."
+    ],
+    "keywords": [
+      "run rule",
+      "mercy rule",
+      "10 runs",
+      "early game end",
+      "concede"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/the-10-run-rule-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-run-15-regular-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "4.10(e)",
+    "topic": "Regular Season 15-run Rule",
+    "summary": "If the local league adopts this option, a 15-run lead can end a regulation game after three innings for Minor/Major, or after four innings for upper divisions. A home-team lead can end the game after its prior half-inning; the visiting team's lead must allow the home team its turn to bat.",
+    "ruling": "OPTIONAL REGULAR-SEASON 15-RUN RULE",
+    "exceptions": [
+      "League board must adopt the option for applicable divisions.",
+      "The home team must receive its half-inning when trailing.",
+      "Intermediate (50/70) baseball, Junior and Senior divisions use the longer inning threshold."
+    ],
+    "keywords": [
+      "run rule",
+      "mercy rule",
+      "15 runs",
+      "early game end",
+      "concede"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/the-10-run-rule-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-run-10-tournament-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Tournament"
+    ],
+    "ruleNumber": "Tournament Rule 12",
+    "topic": "International Tournament 10-Run Rule",
+    "summary": "The 10-run rule is mandatory in the Little League International Tournament. It applies after 4 innings in Minor/Major or 5 innings in upper divisions (one half-inning earlier when the home team leads). If the visiting team leads, the home team must have its turn at bat.",
+    "ruling": "MANDATORY TOURNAMENT 10-RUN RULE",
+    "exceptions": [
+      "The 8-run option is not used in International Tournament play.",
+      "Tournament application requires the applicable inning threshold and home-team opportunity to bat."
+    ],
+    "keywords": [
+      "run rule",
+      "mercy rule",
+      "10 runs",
+      "international tournament"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/the-10-run-rule-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-run-15-tournament-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Tournament"
+    ],
+    "ruleNumber": "Tournament Rule 12",
+    "topic": "International Tournament 15-Run Rule",
+    "summary": "The 15-run rule is mandatory in the Little League International Tournament. It applies after 3 innings in Minor/Major or 4 innings in upper divisions (one half-inning earlier when the home team leads). If the visiting team leads, the home team must have its turn at bat.",
+    "ruling": "MANDATORY TOURNAMENT 15-RUN RULE",
+    "exceptions": [
+      "The 8-run option is not used in International Tournament play.",
+      "Tournament application requires the applicable inning threshold and home-team opportunity to bat."
+    ],
+    "keywords": [
+      "run rule",
+      "mercy rule",
+      "15 runs",
+      "international tournament"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/the-10-run-rule-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-coach-warmup-regular-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "3.09",
+    "topic": "Adult Warming Up Pitcher — Regular Season",
+    "summary": "During the regular season, managers or coaches may warm up a pitcher at home plate, in the bullpen, or elsewhere, including pregame and in-game warmups.",
+    "ruling": "ADULT COACH/MANAGER WARMUP PERMITTED",
+    "exceptions": [],
+    "keywords": [
+      "coach warm up",
+      "bullpen",
+      "catch warmup",
+      "pitcher"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/regular-season-to-tournament-rule-differences/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-coach-warmup-tournament-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Tournament"
+    ],
+    "ruleNumber": "Tournament Rule 3(f)",
+    "topic": "Adult Warming Up Pitcher — Tournament",
+    "summary": "During Little League International Tournament play, managers and coaches may observe bullpen warmups but may not warm up a pitcher at home plate, in the bullpen, or elsewhere.",
+    "ruling": "ADULT COACH/MANAGER WARMUP PROHIBITED",
+    "exceptions": [],
+    "keywords": [
+      "coach warm up",
+      "bullpen",
+      "catch warmup",
+      "pitcher",
+      "tournament"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/regular-season-to-tournament-rule-differences/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-protest-regular-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "4.19(c)",
+    "topic": "Regular Season Playing-Rule Protest",
+    "summary": "A manager disputing a rule interpretation or violation must immediately notify the umpire before another pitch or play. The umpiring crew confers and follows the rule's protest process; judgment calls are not converted into rule protests.",
+    "ruling": "IMMEDIATE NOTICE BEFORE NEXT PITCH OR PLAY",
+    "exceptions": [],
+    "keywords": [
+      "protest",
+      "rule misinterpretation",
+      "umpire",
+      "appeal"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/regular-season-to-tournament-rule-differences/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-protest-tournament-b",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Tournament"
+    ],
+    "ruleNumber": "Tournament Rule 4.19 replacement",
+    "topic": "International Tournament Rule Protest",
+    "summary": "A manager or coach must raise a verbal protest immediately to the umpire-in-chief. The crew confers; unresolved disputes escalate through the tournament director/district administrator and, if necessary, Regional Headquarters and the International Tournament Committee.",
+    "ruling": "IMMEDIATE VERBAL PROTEST; TOURNAMENT ESCALATION",
+    "exceptions": [
+      "Tournament officials and umpires cannot unilaterally declare a forfeiture under the published tournament protest procedure."
+    ],
+    "keywords": [
+      "protest",
+      "tournament director",
+      "regional headquarters",
+      "umpire"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/regular-season-to-tournament-rule-differences/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-run-8-regular-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "4.10(e)",
+    "topic": "Regular Season 8-run Rule",
+    "summary": "If the local league adopts this option, a 8-run lead can end a regulation game after five innings for Minor/Major, or after six innings for upper divisions. A home-team lead can end the game after its prior half-inning; the visiting team's lead must allow the home team its turn to bat.",
+    "ruling": "OPTIONAL REGULAR-SEASON 8-RUN RULE",
+    "exceptions": [
+      "League board must adopt the option for applicable divisions.",
+      "The home team must receive its half-inning when trailing.",
+      "Intermediate (50/70) baseball, Junior and Senior divisions use the longer inning threshold."
+    ],
+    "keywords": [
+      "run rule",
+      "mercy rule",
+      "8 runs",
+      "early game end",
+      "concede"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/the-10-run-rule-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-run-10-regular-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "4.10(e)",
+    "topic": "Regular Season 10-run Rule",
+    "summary": "If the local league adopts this option, a 10-run lead can end a regulation game after four innings for Minor/Major, or after five innings for upper divisions. A home-team lead can end the game after its prior half-inning; the visiting team's lead must allow the home team its turn to bat.",
+    "ruling": "OPTIONAL REGULAR-SEASON 10-RUN RULE",
+    "exceptions": [
+      "League board must adopt the option for applicable divisions.",
+      "The home team must receive its half-inning when trailing.",
+      "Intermediate (50/70) baseball, Junior and Senior divisions use the longer inning threshold."
+    ],
+    "keywords": [
+      "run rule",
+      "mercy rule",
+      "10 runs",
+      "early game end",
+      "concede"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/the-10-run-rule-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-run-15-regular-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "4.10(e)",
+    "topic": "Regular Season 15-run Rule",
+    "summary": "If the local league adopts this option, a 15-run lead can end a regulation game after three innings for Minor/Major, or after four innings for upper divisions. A home-team lead can end the game after its prior half-inning; the visiting team's lead must allow the home team its turn to bat.",
+    "ruling": "OPTIONAL REGULAR-SEASON 15-RUN RULE",
+    "exceptions": [
+      "League board must adopt the option for applicable divisions.",
+      "The home team must receive its half-inning when trailing.",
+      "Intermediate (50/70) baseball, Junior and Senior divisions use the longer inning threshold."
+    ],
+    "keywords": [
+      "run rule",
+      "mercy rule",
+      "15 runs",
+      "early game end",
+      "concede"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/the-10-run-rule-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-run-10-tournament-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Tournament"
+    ],
+    "ruleNumber": "Tournament Rule 12",
+    "topic": "International Tournament 10-Run Rule",
+    "summary": "The 10-run rule is mandatory in the Little League International Tournament. It applies after 4 innings in Minor/Major or 5 innings in upper divisions (one half-inning earlier when the home team leads). If the visiting team leads, the home team must have its turn at bat.",
+    "ruling": "MANDATORY TOURNAMENT 10-RUN RULE",
+    "exceptions": [
+      "The 8-run option is not used in International Tournament play.",
+      "Tournament application requires the applicable inning threshold and home-team opportunity to bat."
+    ],
+    "keywords": [
+      "run rule",
+      "mercy rule",
+      "10 runs",
+      "international tournament"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/the-10-run-rule-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-run-15-tournament-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Tournament"
+    ],
+    "ruleNumber": "Tournament Rule 12",
+    "topic": "International Tournament 15-Run Rule",
+    "summary": "The 15-run rule is mandatory in the Little League International Tournament. It applies after 3 innings in Minor/Major or 4 innings in upper divisions (one half-inning earlier when the home team leads). If the visiting team leads, the home team must have its turn at bat.",
+    "ruling": "MANDATORY TOURNAMENT 15-RUN RULE",
+    "exceptions": [
+      "The 8-run option is not used in International Tournament play.",
+      "Tournament application requires the applicable inning threshold and home-team opportunity to bat."
+    ],
+    "keywords": [
+      "run rule",
+      "mercy rule",
+      "15 runs",
+      "international tournament"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/the-10-run-rule-what-parents-need-to-know/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-coach-warmup-regular-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "3.09",
+    "topic": "Adult Warming Up Pitcher — Regular Season",
+    "summary": "During the regular season, managers or coaches may warm up a pitcher at home plate, in the bullpen, or elsewhere, including pregame and in-game warmups.",
+    "ruling": "ADULT COACH/MANAGER WARMUP PERMITTED",
+    "exceptions": [],
+    "keywords": [
+      "coach warm up",
+      "bullpen",
+      "catch warmup",
+      "pitcher"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/regular-season-to-tournament-rule-differences/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-coach-warmup-tournament-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Tournament"
+    ],
+    "ruleNumber": "Tournament Rule 3(f)",
+    "topic": "Adult Warming Up Pitcher — Tournament",
+    "summary": "During Little League International Tournament play, managers and coaches may observe bullpen warmups but may not warm up a pitcher at home plate, in the bullpen, or elsewhere.",
+    "ruling": "ADULT COACH/MANAGER WARMUP PROHIBITED",
+    "exceptions": [],
+    "keywords": [
+      "coach warm up",
+      "bullpen",
+      "catch warmup",
+      "pitcher",
+      "tournament"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/regular-season-to-tournament-rule-differences/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-protest-regular-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "4.19(c)",
+    "topic": "Regular Season Playing-Rule Protest",
+    "summary": "A manager disputing a rule interpretation or violation must immediately notify the umpire before another pitch or play. The umpiring crew confers and follows the rule's protest process; judgment calls are not converted into rule protests.",
+    "ruling": "IMMEDIATE NOTICE BEFORE NEXT PITCH OR PLAY",
+    "exceptions": [],
+    "keywords": [
+      "protest",
+      "rule misinterpretation",
+      "umpire",
+      "appeal"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/regular-season-to-tournament-rule-differences/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-protest-tournament-s",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Tournament"
+    ],
+    "ruleNumber": "Tournament Rule 4.19 replacement",
+    "topic": "International Tournament Rule Protest",
+    "summary": "A manager or coach must raise a verbal protest immediately to the umpire-in-chief. The crew confers; unresolved disputes escalate through the tournament director/district administrator and, if necessary, Regional Headquarters and the International Tournament Committee.",
+    "ruling": "IMMEDIATE VERBAL PROTEST; TOURNAMENT ESCALATION",
+    "exceptions": [
+      "Tournament officials and umpires cannot unilaterally declare a forfeiture under the published tournament protest procedure."
+    ],
+    "keywords": [
+      "protest",
+      "tournament director",
+      "regional headquarters",
+      "umpire"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/university/articles/regular-season-to-tournament-rule-differences/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official rule guidance; reviewed for 2026",
+    "reviewedOn": "2026-10-08"
   }
 ]
