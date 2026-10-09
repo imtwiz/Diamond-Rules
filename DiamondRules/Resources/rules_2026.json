@@ -3933,5 +3933,780 @@
     "officialText": null,
     "sourceLabel": "Little League official rule guidance; reviewed for 2026",
     "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ll-2026-pitching-base-catcher-four",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(a)",
+    "topic": "Catcher Four Innings — Pitching Eligibility",
+    "summary": "A baseball player who has caught in four or more innings in a game may not pitch on that calendar day. Catching one live pitch in the fourth inning counts as a fourth inning; warm-up pitches do not.",
+    "ruling": "INELIGIBLE TO PITCH THAT DAY",
+    "exceptions": [],
+    "keywords": [
+      "catcher",
+      "four innings",
+      "pitching eligibility"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-pitcher-catcher-40",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(c) Note",
+    "topic": "Pitcher Moving to Catcher — 40-Pitch Threshold",
+    "summary": "A pitcher who throws 41 or more pitches that day may not catch for the remainder of the day unless the 40-pitch batter-completion exception applies.",
+    "ruling": "41+ PITCHES: NO CATCHING, UNLESS EXCEPTION",
+    "exceptions": [
+      "A pitcher beginning the final batter at 40 pitches or fewer may finish that batter and retain catching eligibility if removed before pitching to a new batter, subject to the specified end-of-at-bat conditions."
+    ],
+    "keywords": [
+      "pitcher catcher",
+      "40 pitches",
+      "41 pitches",
+      "threshold"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-catchpitch-14",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(a)",
+    "topic": "Catcher to Pitcher to Catcher — Age 14 and Under",
+    "summary": "For league ages 14 and under, a player who catches three innings or fewer and then throws 21 or more pitches that day cannot return to catcher that calendar day.",
+    "ruling": "21+ PITCHES AFTER CATCHING: NO RETURN TO CATCHER",
+    "exceptions": [
+      "If the pitcher reaches 20 pitches during a batter, the batter-completion threshold exception may preserve catching eligibility if the pitcher does not begin another batter."
+    ],
+    "keywords": [
+      "catcher pitcher catcher",
+      "21 pitches",
+      "20 pitch threshold"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-catchpitch-15",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(a)",
+    "topic": "Catcher to Pitcher to Catcher — Ages 15–16",
+    "summary": "For league ages 15 and 16, a player who catches three innings or fewer and then throws 31 or more pitches that day cannot return to catcher that calendar day.",
+    "ruling": "31+ PITCHES AFTER CATCHING: NO RETURN TO CATCHER",
+    "exceptions": [
+      "If 30 pitches is reached during a batter, the batter-completion threshold exception may preserve catching eligibility if no new batter is started."
+    ],
+    "keywords": [
+      "catcher pitcher catcher",
+      "31 pitches",
+      "30 pitch threshold",
+      "15 year old",
+      "16 year old"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-return-minors",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(b)",
+    "topic": "Pitcher Removed From Mound — Minor/Major",
+    "summary": "In Minor and Major baseball, a pitcher removed from the mound cannot return as pitcher in that game.",
+    "ruling": "NO RETURN AS PITCHER",
+    "exceptions": [],
+    "keywords": [
+      "pitcher reentry",
+      "removed pitcher",
+      "mound"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-return-upper",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(b)",
+    "topic": "Pitcher Removed From Mound — Upper Divisions",
+    "summary": "In Intermediate (50/70), Junior, and Senior baseball, a pitcher who stays in the game on defense at another position may return to pitch once during that game.",
+    "ruling": "ONE RETURN PER GAME IF REMAINING ON DEFENSE",
+    "exceptions": [
+      "Other pitching-eligibility and substitution restrictions still apply."
+    ],
+    "keywords": [
+      "pitcher reentry",
+      "return to mound",
+      "upper divisions"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-three-days",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(d) Note 1",
+    "topic": "Pitching Three Consecutive Days",
+    "summary": "Under the regular-season baseball pitching regulation, a player may not pitch on three consecutive calendar days, even if the pitch counts would otherwise require no rest.",
+    "ruling": "THREE CONSECUTIVE PITCHING DAYS PROHIBITED",
+    "exceptions": [],
+    "keywords": [
+      "three consecutive days",
+      "pitching rest",
+      "daily"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-rest-15-16-1-30",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(d)",
+    "topic": "Pitching Rest — Ages 15–16, 1-30 Pitches",
+    "summary": "For league-age 15- and 16-year-old baseball pitchers, 1-30 pitches in a day require 0 calendar days of rest before pitching again.",
+    "ruling": "REQUIRED REST: 0 DAYS",
+    "exceptions": [
+      "The regulation's batter-completion threshold exception and ban on pitching three consecutive days still apply."
+    ],
+    "keywords": [
+      "pitch count",
+      "pitching rest",
+      "15-16",
+      "1-30"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-rest-15-16-31-45",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(d)",
+    "topic": "Pitching Rest — Ages 15–16, 31-45 Pitches",
+    "summary": "For league-age 15- and 16-year-old baseball pitchers, 31-45 pitches in a day require 1 calendar day of rest before pitching again.",
+    "ruling": "REQUIRED REST: 1 DAY",
+    "exceptions": [
+      "The regulation's batter-completion threshold exception and ban on pitching three consecutive days still apply."
+    ],
+    "keywords": [
+      "pitch count",
+      "pitching rest",
+      "15-16",
+      "31-45"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-rest-15-16-46-60",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(d)",
+    "topic": "Pitching Rest — Ages 15–16, 46-60 Pitches",
+    "summary": "For league-age 15- and 16-year-old baseball pitchers, 46-60 pitches in a day require 2 calendar days of rest before pitching again.",
+    "ruling": "REQUIRED REST: 2 DAYS",
+    "exceptions": [
+      "The regulation's batter-completion threshold exception and ban on pitching three consecutive days still apply."
+    ],
+    "keywords": [
+      "pitch count",
+      "pitching rest",
+      "15-16",
+      "46-60"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-rest-15-16-61-75",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(d)",
+    "topic": "Pitching Rest — Ages 15–16, 61-75 Pitches",
+    "summary": "For league-age 15- and 16-year-old baseball pitchers, 61-75 pitches in a day require 3 calendar days of rest before pitching again.",
+    "ruling": "REQUIRED REST: 3 DAYS",
+    "exceptions": [
+      "The regulation's batter-completion threshold exception and ban on pitching three consecutive days still apply."
+    ],
+    "keywords": [
+      "pitch count",
+      "pitching rest",
+      "15-16",
+      "61-75"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-rest-15-16-76plus",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(d)",
+    "topic": "Pitching Rest — Ages 15–16, 76+ Pitches",
+    "summary": "For league-age 15- and 16-year-old baseball pitchers, 76+ pitches in a day require 4 calendar days of rest before pitching again.",
+    "ruling": "REQUIRED REST: 4 DAYS",
+    "exceptions": [
+      "The regulation's batter-completion threshold exception and ban on pitching three consecutive days still apply."
+    ],
+    "keywords": [
+      "pitch count",
+      "pitching rest",
+      "15-16",
+      "76+"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-minor-12",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(j)",
+    "topic": "Minor Baseball — League Age 12 Pitching",
+    "summary": "A player who has attained league age 12 is not eligible to pitch in Minor League Baseball.",
+    "ruling": "LEAGUE-AGE 12 CANNOT PITCH IN MINORS",
+    "exceptions": [],
+    "keywords": [
+      "minor league",
+      "age 12",
+      "ineligible pitcher"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-single-game",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(k)",
+    "topic": "Pitching More Than One Game Per Day — Lower Divisions",
+    "summary": "A Minor, Major, or Intermediate (50/70) baseball pitcher may not pitch in more than one game on the same day.",
+    "ruling": "ONE PITCHING GAME PER DAY",
+    "exceptions": [],
+    "keywords": [
+      "doubleheader",
+      "two games",
+      "same day"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-recorder",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(e)–(g)",
+    "topic": "Official Pitch Count and Manager Responsibility",
+    "summary": "Each league designates an official pitch-count recorder. Either manager or an umpire may request the count; the manager remains responsible for removing an ineligible pitcher even if the recorder or umpire fails to notify them.",
+    "ruling": "MANAGER RESPONSIBLE FOR PITCHER ELIGIBILITY",
+    "exceptions": [],
+    "keywords": [
+      "official pitch count",
+      "scorekeeper",
+      "manager",
+      "umpire"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-base-batter-limit",
+    "organization": "Little League",
+    "sport": "Baseball",
+    "divisions": [
+      "Minor",
+      "Major",
+      "Intermediate (50/70)",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(c) Exception",
+    "topic": "Pitch Limit Reached During At-Bat",
+    "summary": "When a baseball pitcher reaches the age-based daily pitch maximum while facing a batter, the pitcher may complete that batter under the listed end-of-at-bat conditions, but may not start a new batter.",
+    "ruling": "FINISH CURRENT BATTER; DO NOT START NEXT",
+    "exceptions": [
+      "Ends when the batter reaches base, is retired, the third out completes the half-inning or game, or the pitcher is removed before the at-bat ends."
+    ],
+    "keywords": [
+      "daily pitch limit",
+      "finish batter",
+      "threshold exception"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-soft-12-innings",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(b)",
+    "topic": "Softball Minor/Major — Daily Innings Limit",
+    "summary": "In regular-season Minor and Major softball, a pitcher may pitch in no more than 12 innings during a calendar day, including across games.",
+    "ruling": "MAXIMUM 12 INNINGS PER DAY",
+    "exceptions": [],
+    "keywords": [
+      "softball innings",
+      "12 innings",
+      "daily limit"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-soft-seven-rest",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(b)",
+    "topic": "Softball Minor/Major — Seven-Inning Rest Rule",
+    "summary": "In regular-season Minor and Major softball, pitching in seven or more innings in a day requires one full calendar day of rest before pitching again.",
+    "ruling": "7+ INNINGS: ONE CALENDAR DAY REST",
+    "exceptions": [],
+    "keywords": [
+      "softball rest",
+      "seven innings",
+      "one day"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-soft-one-pitch",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(b)",
+    "topic": "Softball Pitching Inning — One Pitch Counts",
+    "summary": "For regular-season Minor and Major softball pitching eligibility, delivering a single pitch counts as having pitched in that inning.",
+    "ruling": "ONE PITCH COUNTS AS AN INNING",
+    "exceptions": [],
+    "keywords": [
+      "innings pitched",
+      "single pitch",
+      "eligibility"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-soft-jr-sr-rest",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(b)",
+    "topic": "Softball Junior/Senior — Innings and Rest",
+    "summary": "Little League's regular-season Regulation VI(b) sets no general innings-pitched or rest-day limit for Junior and Senior softball; local league or district restrictions may still apply.",
+    "ruling": "NO GENERAL REGULATION VI(b) LIMIT; CHECK LOCAL RULES",
+    "exceptions": [
+      "A local league board or district may impose additional regular-season/interleague pitching limits.",
+      "A player participating across divisions may be subject to the pitching rules of the division in which they are playing."
+    ],
+    "keywords": [
+      "softball junior",
+      "softball senior",
+      "pitching rest",
+      "local limits"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-soft-minor-12",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(a)",
+    "topic": "Minor Softball — League Age 12 Pitching",
+    "summary": "A player who has attained league age 12 is not eligible to pitch in Minor League Softball.",
+    "ruling": "LEAGUE-AGE 12 CANNOT PITCH IN MINORS",
+    "exceptions": [],
+    "keywords": [
+      "minor softball",
+      "age 12",
+      "pitching eligibility"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-soft-return-minors",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Minor",
+      "Major"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(c)",
+    "topic": "Softball Pitcher Return — Minor/Major",
+    "summary": "A Minor or Major softball pitcher who stays in the game at another defensive position may return to pitch later, but may return only once in the inning from which they were removed.",
+    "ruling": "RETURN PERMITTED; ONCE IN SAME INNING",
+    "exceptions": [
+      "A pitcher removed offensively or defensively for a substitute cannot re-enter as pitcher except as allowed by Rule 3.03(c)."
+    ],
+    "keywords": [
+      "softball pitcher return",
+      "reentry",
+      "same inning"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-soft-return-upper",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(c)",
+    "topic": "Softball Pitcher Return — Junior/Senior",
+    "summary": "In Junior and Senior softball, a pitcher may be withdrawn and return as pitcher once per inning, subject to substitution, pitcher-visit, and mandatory-play restrictions.",
+    "ruling": "RETURN ONCE PER INNING IF OTHERWISE ELIGIBLE",
+    "exceptions": [],
+    "keywords": [
+      "softball pitcher return",
+      "junior",
+      "senior",
+      "reentry"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-soft-five-pitchers",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Major",
+      "Junior",
+      "Senior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(d)",
+    "topic": "Softball — Five Pitchers Per Game",
+    "summary": "In regular-season Major, Junior, and Senior softball, a team may use no more than five pitchers in a game.",
+    "ruling": "FIVE PITCHERS MAXIMUM PER GAME",
+    "exceptions": [
+      "An additional pitcher may be used if the fifth pitcher becomes ill or injured."
+    ],
+    "keywords": [
+      "five pitchers",
+      "pitcher limit",
+      "injury"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
+  },
+  {
+    "id": "ll-2026-pitching-soft-junior-15",
+    "organization": "Little League",
+    "sport": "Softball",
+    "divisions": [
+      "Junior"
+    ],
+    "season": 2026,
+    "gameTypes": [
+      "Regular Season"
+    ],
+    "ruleNumber": "Regulation VI(a)",
+    "topic": "Junior Softball — League Age 15 Local Restriction",
+    "summary": "A local league board may prohibit league-age 15 players from pitching in Junior League Softball; verify the league's adopted restriction.",
+    "ruling": "CHECK LOCAL LEAGUE BOARD RULE",
+    "exceptions": [],
+    "keywords": [
+      "15 year old",
+      "junior softball",
+      "local board"
+    ],
+    "relatedRules": [],
+    "officialSource": "https://www.littleleague.org/playing-rules/pitch-count/",
+    "verified": true,
+    "officialText": null,
+    "sourceLabel": "Little League official Regular Season Pitching Rules — Regulation VI",
+    "reviewedOn": "2026-10-09"
   }
 ]
